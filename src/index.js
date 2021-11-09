@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Navigation from './Navigation';
+import { theme } from "./theme";
+import { ThemeProvider } from 'styled-components';
 
 ReactDOM.render(
   <React.StrictMode>
+    <ThemeProvider theme={theme}>
+    <Navigation />
     <App />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
