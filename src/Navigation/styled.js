@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const List = styled.ul`
-    background: ${({ theme }) => theme.color.teal};
+    background: ${({ theme }) => theme.color.beige};
     margin: 0;
     padding: 0;
     display: flex;
