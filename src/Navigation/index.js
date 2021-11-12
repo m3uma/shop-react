@@ -5,7 +5,7 @@ const Navigation = () => {
         <nav>
             <List>
                 <Item>Shop</Item>
-                <Item>About Author</Item>
+                <Item>About us</Item>
             </List>
         </nav>
     );
