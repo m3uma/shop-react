@@ -7,11 +7,13 @@ import Navigation from './Navigation';
 import { theme } from "./theme";
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from "./GlobalStyle";
+import MainPanel from './MainPanel';
 
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyle />
+      <MainPanel />
       <Navigation />
       <App />
     </ThemeProvider>
